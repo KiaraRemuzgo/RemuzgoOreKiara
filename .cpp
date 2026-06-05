@@ -26,7 +26,7 @@ alumno::~alumno()
 
 void alumno::ingresar()
 {
-	cout<<" COlocar";
+	cout<<" COlocar nombre";
 	cin>>nombre;
 	cout<<"Ingrese carrera: "; 
 	cin>>carrera;
