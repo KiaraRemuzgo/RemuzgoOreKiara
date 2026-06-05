@@ -26,7 +26,7 @@ alumno::~alumno()
 
 void alumno::ingresar()
 {
-	cout<<" ";
+	cout<<" COlocar";
 	cin>>nombre;
 	cout<<"Ingrese carrera: "; 
 	cin>>carrera;
@@ -44,20 +44,7 @@ void alumno::imprimir()
 int main() 
 {	alumno al;
 
-    cout<<"Ingrese Alumno\n";
-    al.ingresar();cout<<"\n";
     
-    cout<<"Mostrar Alumno\n";
-    al.imprimir();cout<<"\n\n";
-    system("PAUSE");
-    
-    cout<<"Eliminar Alumno\n";
-    al = alumno(); 
-    cout<<"\n";
-    system("PAUSE");
-    
-    cout<<"Mostrar Alumno\n";
-    al.imprimir();cout<<"\n";
     
 system("PAUSE");
 return 0;
